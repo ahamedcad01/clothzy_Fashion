@@ -53,3 +53,26 @@
 	color: white;
 	font-style: italic;
 }
+.img3{
+	display: flex;
+	gap: 25px;
+	height: 370px;
+	width: 315px;
+	
+}
+.overlayhome {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgb(20, 15, 15);
+  }
+
+  .container:hover .overlayhome {
+	opacity: 0.8;
+  }
